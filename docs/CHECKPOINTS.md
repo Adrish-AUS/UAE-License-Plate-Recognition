@@ -2,6 +2,12 @@
 
 Large model files are not stored directly in the normal Git repository. Share them separately using Google Drive, OneDrive, GitHub Releases, or Git LFS.
 
+Download link:
+
+```text
+https://drive.google.com/drive/u/2/folders/11NIEo7Cx430th-ADQH7vAt1NhTNl5QRZ
+```
+
 ## Required files
 
 ### RF-DETR Medium — augmented main model
@@ -20,11 +26,6 @@ runs/rfdetr_medium_main/checkpoint_best_total.pth
 
 Used by the final application pipeline.
 
-Download link:
-
-```text
-https://drive.google.com/drive/u/2/folders/11NIEo7Cx430th-ADQH7vAt1NhTNl5QRZ
-```
 
 ---
 
@@ -43,13 +44,6 @@ runs/rfdetr_medium_no_aug/checkpoint_best_ema.pth
 ```
 
 Used only for the controlled augmentation ablation.
-
-Download link:
-
-```text
-ADD_LINK_HERE
-```
-
 ---
 
 ### RT-DETR-L
@@ -67,12 +61,6 @@ runs/rtdetr_l_main/weights/best.pt
 ```
 
 Used for the additional detector comparison.
-
-Download link:
-
-```text
-ADD_LINK_HERE
-```
 
 ---
 
@@ -92,12 +80,6 @@ runs/ocr_uae_v2_retry/<latest-run>/best.keras
 
 Use the newest completed OCR v2 run that fixed numeric-prefix Abu Dhabi plates.
 
-Download link:
-
-```text
-ADD_LINK_HERE
-```
-
 ---
 
 ### Emirate ResNet18 classifier
@@ -115,12 +97,6 @@ runs/emirate_resnet18_main/best.pt
 ```
 
 Used by the final seven-emirate pipeline.
-
-Download link:
-
-```text
-ADD_LINK_HERE
-```
 
 ## Important notes
 
