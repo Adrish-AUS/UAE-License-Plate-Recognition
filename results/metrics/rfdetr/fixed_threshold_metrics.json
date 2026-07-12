@@ -1,0 +1,15 @@
+{
+  "checkpoint": "C:\\Users\\DELL\\Documents\\CMP486\\UAE-License-Plate-Detection-Preprocessed\\runs\\rfdetr_medium_main\\checkpoint_best_total.pth",
+  "iou_threshold": 0.5,
+  "confidence_threshold_source": "validation split",
+  "threshold": 0.8414925932884216,
+  "validation_precision": 0.9895081967213115,
+  "validation_recall": 0.9895081967213115,
+  "validation_f1": 0.9895081967213115,
+  "true_positives": 1499,
+  "false_positives": 13,
+  "false_negatives": 12,
+  "test_precision": 0.9914021164021164,
+  "test_recall": 0.9920582395764395,
+  "test_f1": 0.9917300694674165
+}

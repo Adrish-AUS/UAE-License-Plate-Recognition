@@ -1,0 +1,25 @@
+## RF-DETR Methodology
+
+The model RF-DETR Medium was fine-tuned for one-class UAE license plate detection from the cleaned COCO format dataset. The dataset included 9,610 images and 12,451 boxes. In the split, 6,738 training images were present with 9,415 boxes, 1,440 validation images had 1,525 boxes, and 1,432 test images had 1,511 boxes. No image-dependent full validation revealed any exact duplicates across splits or perceptual duplicates in candidate pairs selected by the chosen threshold. As a result, the same frozen split was utilized for the RF-DETR model as the YOLO baseline model.
+
+For training, official pretrained RF-DETR Medium weights were used. The number of model parameters was 33.37 million, and it was trained on an NVIDIA GeForce RTX 3080 Laptop GPU, having 16 GB VRAM. The physical batch size was 4 with 4 gradient accumulation steps, resulting in effective batch size 16. The learning rate was \(1 \times 10^{-4}\), and the random seed was 486. The model training could run up to 20 epochs. The validation was carried out after each epoch, and early stopping was applied based on 4 validation checks with the mAP difference of 0.001.
+
+A second RF-DETR Medium experiment was conducted without data augmentation for ablation studies. All other parameters including model architecture, data split, learning rate, batch size, gradient accumulation, seed, validation frequency, and early stopping strategy remained the same. The only intended change in this experiment was excluding brightness, blur, rotation, and perspective augmentations.
+
+The best performing model was selected based on validation mAP@50:95. In the augmented experiment, the best total checkpoint was selected, while in the non-augmented experiment, the best EMA checkpoint was selected since training was halted manually after the checkpoint was saved. Both models were tested on the identical test split of 1,432 images using the official COCO bounding box evaluation protocol.
+
+COCO mAP@50, mAP@75, and mAP@50:95 metrics were computed. The precision, recall, and F1 score were independently calculated using a confidence threshold chosen from the validation split. This validation-chosen threshold was frozen before testing.
+
+## RF-DETR Results
+
+The augmented RF-DETR Medium model resulted in test mAP@50:95 = 0.8664, mAP@50 = 0.9965, and mAP@75 = 0.9844. The AP of medium and large objects was equal to 0.8495 and 0.8736, respectively. The COCO provided AP-small = -1 since none of the ground-truth plates existed within the predefined area of small objects of the COCO dataset. The average recall with up to 100 detections per image was 0.9027.
+
+Threshold of 0.8415 was chosen based on the validation split. At this threshold, the precision, recall, and F1 of the validation were approximately equal to 0.9895. Using this threshold on the test split, the model provided 1,499 true positives, 13 false positives, and 12 false negatives, resulting in test precision = 0.9914, recall = 0.9921, and F1 = 0.9917.
+
+COCO metrics in augmentation ablation were very close. Model trained without augmentation had 0.8666 test mAP@50:95, while model trained with augmentations had 0.8664. The difference between two models was 0.00012 and is therefore negligible. Augmented model had a higher value of mAP@50 and mAP@75, being 0.9965 and 0.9844 respectively, while non-augmented model has 0.9903 and 0.9777. However, non-augmented model has higher AR@100 with 0.9060 versus 0.9027 in augmented model. Thus, these results do not indicate any advantage of augmentation policy in terms of overall mAP, but there are differences in performance on separate 0.50 and 0.75 IoU thresholds.
+
+Batch-size-1 inference was tested on 200 images after warm-up on 10 images. Standard FP32 model had a latency of 95.68 ms per image, 95.20 ms as median and 108.34 ms as 95th percentile latency. That corresponds to 10.45 FPS. After RF-DETR optimization for inference, mean latency was lowered to 87.12 ms, and throughput increased to 11.48 FPS in FP32 precision. Thus, this optimization reduced mean latency by 9% without any change in the architecture or number of parameters of the model.
+
+From qualitative inspection, it became evident that the RF-DETR algorithm generates precise bounding boxes for the clear foreground plates even in the presence of moderate glare, blurring, angles and partial occlusion. Some of the low-IoU samples turned out to be false positive results due to mistakes in the ground-truth annotation and not due to the model performance. In one sample, there was an exit sign which was marked as a licence plate, while the vehicle plate was recognized properly by the algorithm. True negative examples were distant, small, blurred or partially visible plates.
+
+RF-DETR is itself a single-class plate detector. Plate transcription and emirate recognition were done in separate downstream pipelines using OCR v2 and a ResNet18 classifier trained on seven classes respectively. The metrics for both these modules are reported separately from detector mAP, while the overall pipeline is illustrated with complete vehicle images.

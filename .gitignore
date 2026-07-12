@@ -1,0 +1,55 @@
+# Python caches and virtual environments
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.venv/
+venv/
+rfdetr_env/
+
+# IDE and operating-system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Raw and generated datasets
+datasets/
+data/raw/
+data/processed/
+annotations/
+*.cache
+
+# Large model checkpoints and exported models
+*.pt
+*.pth
+*.keras
+*.onnx
+*.engine
+*.tflite
+
+# Training logs and experiment trackers
+logs/
+wandb/
+tensorboard_logs/
+lightning_logs/
+
+# Keep curated release results, but ignore bulky training artifacts
+runs/
+results/**/predictions.csv
+results/**/crops/
+results/**/plate_crops/
+results/**/cache/
+results/**/temp/
+results/**/tmp/
+
+# Generated archives
+*.zip
+team_handoff_pack/
+handoff_report_pack/
+
+# Local notebooks and temporary files
+.ipynb_checkpoints/
+*.bak
+*.tmp
+~$*

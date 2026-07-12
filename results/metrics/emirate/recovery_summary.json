@@ -1,0 +1,85 @@
+{
+  "raw_root": "C:\\Users\\DELL\\Documents\\CMP486\\UAE-License-Plate-Detection-Preprocessed\\datasets\\UAE_raw_51class",
+  "current_root": "C:\\Users\\DELL\\Documents\\CMP486\\UAE-License-Plate-Detection-Preprocessed\\datasets\\uae_lp_v2_yolo",
+  "output_root": "C:\\Users\\DELL\\Documents\\CMP486\\UAE-License-Plate-Detection-Preprocessed\\datasets\\uae_lp_emirate",
+  "results_root": "C:\\Users\\DELL\\Documents\\CMP486\\UAE-License-Plate-Detection-Preprocessed\\results\\emirate_recovery",
+  "raw_split_counts": {
+    "test": 2965,
+    "train": 7020
+  },
+  "current_image_counts": {
+    "train": 6738,
+    "val": 1440,
+    "test": 1432
+  },
+  "current_plate_box_counts": {
+    "train": 9415,
+    "val": 1525,
+    "test": 1511
+  },
+  "raw_match_methods": {
+    "roboflow_base_key": 9525
+  },
+  "recovered_crop_count": 10452,
+  "excluded_plate_count": 1999,
+  "exclusion_reasons": {
+    "no_emirate_annotation_inside_plate": 1910,
+    "conflicting_emirate_annotations": 4,
+    "duplicate_fallback_raw_key": 7,
+    "raw_image_not_found": 78
+  },
+  "total_class_counts": {
+    "Sharjah": 628,
+    "Abu_Dhabi": 1137,
+    "Dubai": 7870,
+    "Fujairah": 433,
+    "Ras_Al_Khaimah": 133,
+    "Ajman": 158,
+    "Umm_Al_Quwain": 93
+  },
+  "split_class_counts": {
+    "train": {
+      "Sharjah": 448,
+      "Abu_Dhabi": 773,
+      "Dubai": 5699,
+      "Fujairah": 318,
+      "Ras_Al_Khaimah": 94,
+      "Ajman": 109,
+      "Umm_Al_Quwain": 71
+    },
+    "val": {
+      "Abu_Dhabi": 170,
+      "Sharjah": 89,
+      "Dubai": 1098,
+      "Fujairah": 71,
+      "Ajman": 22,
+      "Ras_Al_Khaimah": 17,
+      "Umm_Al_Quwain": 7
+    },
+    "test": {
+      "Abu_Dhabi": 194,
+      "Sharjah": 91,
+      "Dubai": 1073,
+      "Fujairah": 44,
+      "Ajman": 27,
+      "Ras_Al_Khaimah": 22,
+      "Umm_Al_Quwain": 15
+    }
+  },
+  "mapping": {
+    "new_DUBAI": "Dubai",
+    "new_RAK": "Ras_Al_Khaimah",
+    "new_abudabi": "Abu_Dhabi",
+    "new_ajman": "Ajman",
+    "new_am": "Umm_Al_Quwain",
+    "new_fujairah": "Fujairah",
+    "old_DUBAI": "Dubai",
+    "old_RAK": "Ras_Al_Khaimah",
+    "old_abudabi": "Abu_Dhabi",
+    "old_ajman": "Ajman",
+    "old_am": "Umm_Al_Quwain",
+    "old_fujira": "Fujairah",
+    "old_sharka": "Sharjah"
+  },
+  "important_note": "Source classes new_am and old_am were confirmed by visual inspection to represent Umm Al Quwain plates."
+}

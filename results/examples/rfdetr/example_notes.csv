@@ -1,0 +1,9 @@
+filename,category,observation
+annotation_01.jpg,Annotation error,A blue highway exit sign in the background was incorrectly labelled as a licence plate in the ground truth  while the Tesla Model X's real plate was detected correctly.
+difficult_01.jpg,Difficult success,Plate detected accurately despite a low  angled view of the convertible in busy multi-lane traffic.
+difficult_02.jpg,Difficult success,Plate still detected correctly despite heavy motion-blur and colour distortion in the underground parking garage photo.
+failure_01.jpg,Failure,A second plate on the rear bumper was not detected at all even though the vehicle's main plate was picked up correctly.
+failure_02.jpg,Failure,Real plate present and clearly visible at night but the model failed to detect it.
+success_01.jpg,Success,Rear plate detected correctly at night despite glare from the tail lights.
+success_02.jpg,Success,Plate detected accurately on the SUV despite low-light nighttime conditions.
+success_03.jpg,Success,Clear front-facing plate on the sedan detected accurately with a tight bounding box.

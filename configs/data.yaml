@@ -1,0 +1,6 @@
+train: datasets/uae_lp_v2_yolo/images/train
+val: datasets/uae_lp_v2_yolo/images/val
+test: datasets/uae_lp_v2_yolo/images/test
+nc: 1
+names:
+  0: license_plate

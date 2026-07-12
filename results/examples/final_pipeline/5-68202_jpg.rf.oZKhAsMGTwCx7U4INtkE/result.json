@@ -1,0 +1,65 @@
+{
+  "source_image": "C:\\Users\\DELL\\Documents\\CMP486\\UAE-License-Plate-Detection-Preprocessed\\datasets\\uae_lp_v2_rfdetr_coco\\test\\5-68202_jpg.rf.oZKhAsMGTwCx7U4INtkE.jpg",
+  "detector_checkpoint": "C:\\Users\\DELL\\Documents\\CMP486\\UAE-License-Plate-Detection-Preprocessed\\runs\\rfdetr_medium_main\\checkpoint_best_total.pth",
+  "ocr_v2_checkpoint": "C:\\Users\\DELL\\Documents\\CMP486\\UAE-License-Plate-Detection-Preprocessed\\runs\\ocr_uae_v2_retry\\2026-07-12_02-10-34\\best.keras",
+  "emirate_checkpoint": "C:\\Users\\DELL\\Documents\\CMP486\\UAE-License-Plate-Detection-Preprocessed\\runs\\emirate_resnet18_main\\best.pt",
+  "code_rules": "C:\\Users\\DELL\\Documents\\CMP486\\UAE-License-Plate-Detection-Preprocessed\\results\\emirate_code_rules.json",
+  "detection_threshold": 0.8414926,
+  "plates_detected": 1,
+  "annotated_image": "C:\\Users\\DELL\\Documents\\CMP486\\UAE-License-Plate-Detection-Preprocessed\\results\\final_pipeline_demo_v2\\5-68202_jpg.rf.oZKhAsMGTwCx7U4INtkE\\annotated.jpg",
+  "plates": [
+    {
+      "plate_index": 1,
+      "detection_confidence": 0.935526430606842,
+      "detection_box_xyxy": [
+        879,
+        822,
+        1131,
+        928
+      ],
+      "padded_crop_box_xyxy": [
+        859,
+        813,
+        1152,
+        937
+      ],
+      "crop_path": "C:\\Users\\DELL\\Documents\\CMP486\\UAE-License-Plate-Detection-Preprocessed\\results\\final_pipeline_demo_v2\\5-68202_jpg.rf.oZKhAsMGTwCx7U4INtkE\\crops\\plate_01.png",
+      "emirate": "Abu Dhabi",
+      "emirate_confidence": 0.9711139798164368,
+      "emirate_top3": [
+        {
+          "emirate": "Abu Dhabi",
+          "confidence": 0.9711139798164368
+        },
+        {
+          "emirate": "Sharjah",
+          "confidence": 0.006841661408543587
+        },
+        {
+          "emirate": "Dubai",
+          "confidence": 0.005783383268862963
+        }
+      ],
+      "combined_plate_text": "568202",
+      "code": "5",
+      "number": "68202",
+      "parsing_method": "train_known_numeric_code",
+      "format_valid": true,
+      "ocr_mean_character_confidence": 0.9998633066813151,
+      "ocr_character_confidences": [
+        0.9998880624771118,
+        0.9996422529220581,
+        0.9996883869171143,
+        0.9999971389770508,
+        0.9999760389328003,
+        0.9999879598617554
+      ]
+    }
+  ],
+  "limitations": [
+    "Code rules are derived only from recovered training filenames.",
+    "The parser separates code and number but does not alter OCR text.",
+    "A second RF-DETR box in a single-plate image should be treated as a detector false positive.",
+    "End-to-end performance may be lower than crop-level component metrics."
+  ]
+}

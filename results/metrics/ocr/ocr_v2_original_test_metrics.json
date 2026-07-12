@@ -1,0 +1,17 @@
+{
+  "model_path": "C:\\Users\\DELL\\Documents\\CMP486\\UAE-License-Plate-Detection-Preprocessed\\runs\\ocr_uae_v2_retry\\2026-07-12_02-10-34\\best.keras",
+  "plate_config_path": "C:\\Users\\DELL\\Documents\\CMP486\\UAE-License-Plate-Detection-Preprocessed\\runs\\ocr_uae_v2_retry\\2026-07-12_02-10-34\\plate_config.yaml",
+  "model_config_path": "C:\\Users\\DELL\\Documents\\CMP486\\UAE-License-Plate-Detection-Preprocessed\\runs\\ocr_uae_v2_retry\\2026-07-12_02-10-34\\model_config.yaml",
+  "annotations_path": "C:\\Users\\DELL\\Documents\\CMP486\\UAE-License-Plate-Detection-Preprocessed\\datasets\\uae_lp_ocr\\test\\annotations.csv",
+  "num_test_crops": 1017,
+  "exact_matches": 999,
+  "incorrect_plates": 18,
+  "full_plate_exact_match_accuracy": 0.9823008849557522,
+  "character_accuracy": 0.9977056702720419,
+  "character_accuracy_definition": "Mean categorical accuracy across all fixed character slots, including correct padding slots. This matches FastPlateOCR char_acc.",
+  "plate_length_accuracy": 0.9990167158308751,
+  "max_plate_slots": 9,
+  "alphabet": "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ_",
+  "pad_char": "_",
+  "keras_backend": "torch"
+}

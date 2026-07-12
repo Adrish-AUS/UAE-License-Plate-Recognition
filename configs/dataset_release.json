@@ -1,0 +1,48 @@
+{
+  "release_name": "uae_lp_v2_yolo",
+  "semantic_version": "2.0.1",
+  "creation_date": "2026-07-10",
+  "revision_date": "2026-07-10",
+  "package_type": "github_source_without_images",
+  "source_dataset_name": "UAE",
+  "source_url": "https://universe.roboflow.com/addinguae/uae-zcfqj",
+  "license": "CC BY 4.0",
+  "target_class": {
+    "id": 0,
+    "name": "license_plate"
+  },
+  "split_counts": {
+    "train": 6738,
+    "val": 1440,
+    "test": 1432,
+    "total": 9610
+  },
+  "box_counts": {
+    "train": 9415,
+    "val": 1525,
+    "test": 1511,
+    "total": 12451
+  },
+  "membership_policy": "Frozen project-controlled approximately 70/15/15 membership recorded by reports/dataset_manifest.csv. The original membership-generation seed and exact grouping algorithm are not independently reconstructable from the committed evidence.",
+  "manifest_sha256": "f482a802f008ee434a97cc416b2db2ae769b3225bb46873048a8bc345d2ed9f4",
+  "coco_annotation_sha256": {
+    "train": "6a81fc7ebda7b2a768747c2ce6d756ea549bbb2aa92c44943d88f330240d594f",
+    "val": "bcea301485e6f46861b20da7dd5a85522b4bc2be7db0176f63344428b469d0fb",
+    "test": "ca2c8e962e8a756836bd40717156953b1d315054105937d23128eced2bd163f9"
+  },
+  "augmentation_policy_filename": "configs/augmentation_policy.yaml",
+  "augmentation_applied_offline": false,
+  "crop_heavy_training_samples_retained": true,
+  "proposed_models": [
+    "YOLO",
+    "RT-DETR",
+    "RF-DETR"
+  ],
+  "known_limitations": [
+    "Images are intentionally omitted from the GitHub source repository and distributed separately.",
+    "The exact historical reason for five frozen-release omissions is unavailable.",
+    "The local raw export metadata used a different Roboflow workspace URL from the required canonical attribution URL.",
+    "The augmentation policy is a preprocessing handoff and is not claimed as integrated into model training.",
+    "The repository proposes YOLO, RT-DETR and RF-DETR but does not claim those models are implemented here."
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "dataset_root": "C:\\Users\\DELL\\Documents\\CMP486\\UAE-License-Plate-Detection-Preprocessed\\datasets\\uae_lp_v2_yolo",
+  "dataset_yaml": "C:\\Users\\DELL\\Documents\\CMP486\\UAE-License-Plate-Detection-Preprocessed\\datasets\\uae_lp_v2_rtdetr.yaml",
+  "split_summary": {
+    "train": {
+      "image_dir": "C:\\Users\\DELL\\Documents\\CMP486\\UAE-License-Plate-Detection-Preprocessed\\datasets\\uae_lp_v2_yolo\\images\\train",
+      "label_dir": "C:\\Users\\DELL\\Documents\\CMP486\\UAE-License-Plate-Detection-Preprocessed\\datasets\\uae_lp_v2_yolo\\labels\\train",
+      "images": 6738,
+      "expected_images": 6738,
+      "missing_label_files": 0,
+      "invalid_label_rows": 0
+    },
+    "valid": {
+      "image_dir": "C:\\Users\\DELL\\Documents\\CMP486\\UAE-License-Plate-Detection-Preprocessed\\datasets\\uae_lp_v2_yolo\\images\\val",
+      "label_dir": "C:\\Users\\DELL\\Documents\\CMP486\\UAE-License-Plate-Detection-Preprocessed\\datasets\\uae_lp_v2_yolo\\labels\\val",
+      "images": 1440,
+      "expected_images": 1440,
+      "missing_label_files": 0,
+      "invalid_label_rows": 0
+    },
+    "test": {
+      "image_dir": "C:\\Users\\DELL\\Documents\\CMP486\\UAE-License-Plate-Detection-Preprocessed\\datasets\\uae_lp_v2_yolo\\images\\test",
+      "label_dir": "C:\\Users\\DELL\\Documents\\CMP486\\UAE-License-Plate-Detection-Preprocessed\\datasets\\uae_lp_v2_yolo\\labels\\test",
+      "images": 1432,
+      "expected_images": 1432,
+      "missing_label_files": 0,
+      "invalid_label_rows": 0
+    }
+  },
+  "model": "rtdetr-l.pt",
+  "epochs": 20,
+  "imgsz": 576,
+  "physical_batch_size": 4,
+  "nominal_batch_size": 16,
+  "optimizer": "AdamW",
+  "lr0": 0.0001,
+  "lrf": 0.01,
+  "weight_decay": 0.001,
+  "seed": 486,
+  "patience": 4,
+  "amp": false,
+  "deterministic": false,
+  "augmentation": {
+    "hsv_h": 0.0,
+    "hsv_s": 0.2,
+    "hsv_v": 0.2,
+    "degrees": 5.0,
+    "translate": 0.05,
+    "scale": 0.1,
+    "shear": 0.0,
+    "perspective": 0.0005,
+    "flipud": 0.0,
+    "fliplr": 0.0,
+    "mosaic": 0.0,
+    "mixup": 0.0
+  }
+}

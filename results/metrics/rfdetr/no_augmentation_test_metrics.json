@@ -1,0 +1,18 @@
+{
+  "checkpoint": "C:\\Users\\DELL\\Documents\\CMP486\\UAE-License-Plate-Detection-Preprocessed\\runs\\rfdetr_medium_no_aug\\checkpoint_best_ema.pth",
+  "test_images": 1432,
+  "test_boxes": 1511,
+  "predictions_retained": 417565,
+  "mAP_50_95": 0.8665606758708274,
+  "mAP_50": 0.9902608095316848,
+  "mAP_75": 0.9777064499692997,
+  "AP_small": -1.0,
+  "AP_medium": 0.8511351774085207,
+  "AP_large": 0.8759718428455274,
+  "AR_100": 0.9059563203176703,
+  "best_confidence_threshold": 0.8630806803703308,
+  "precision_at_best_f1": 0.9946808510638298,
+  "recall_at_best_f1": 0.9900727994705493,
+  "best_f1_iou50": 0.9923714759535655,
+  "iou_threshold": 0.5
+}

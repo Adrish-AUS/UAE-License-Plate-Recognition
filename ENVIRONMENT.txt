@@ -1,0 +1,7 @@
+﻿Python environment used for the project
+Python 3.13.14
+PyTorch: 2.11.0+cu128
+CUDA available: True
+CUDA version: 12.8
+GPU: NVIDIA GeForce RTX 3080 Laptop GPU
+Ultralytics: 8.4.92

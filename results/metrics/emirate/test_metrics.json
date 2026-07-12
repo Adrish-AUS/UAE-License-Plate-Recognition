@@ -1,0 +1,27 @@
+{
+  "best_epoch": 4,
+  "num_test_samples": 1466,
+  "accuracy": 0.9959072305593452,
+  "balanced_accuracy": 0.9770857865774325,
+  "macro_f1": 0.9854325785915261,
+  "weighted_f1": 0.9958955278008589,
+  "classes": [
+    "Abu_Dhabi",
+    "Ajman",
+    "Dubai",
+    "Fujairah",
+    "Ras_Al_Khaimah",
+    "Sharjah",
+    "Umm_Al_Quwain"
+  ],
+  "class_to_idx": {
+    "Abu_Dhabi": 0,
+    "Ajman": 1,
+    "Dubai": 2,
+    "Fujairah": 3,
+    "Ras_Al_Khaimah": 4,
+    "Sharjah": 5,
+    "Umm_Al_Quwain": 6
+  },
+  "limitation": "Umm Al Quwain has only 7 validation and 15 test examples; its per-class metrics have high sampling uncertainty."
+}

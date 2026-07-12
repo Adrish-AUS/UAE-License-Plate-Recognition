@@ -1,0 +1,11 @@
+{
+  "gpu": "NVIDIA GeForce RTX 3080 Laptop GPU",
+  "images_tested": 200,
+  "batch_size": 1,
+  "mean_latency_ms": 95.68481199938105,
+  "median_latency_ms": 95.20110001903959,
+  "p95_latency_ms": 108.34356998966541,
+  "fps": 10.450979409422558,
+  "parameters": 33367236,
+  "parameters_millions": 33.367236
+}

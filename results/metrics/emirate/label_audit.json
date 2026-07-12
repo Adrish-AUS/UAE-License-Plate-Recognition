@@ -1,0 +1,651 @@
+{
+  "project_root": "C:\\Users\\DELL\\Documents\\CMP486\\UAE-License-Plate-Detection-Preprocessed",
+  "class_mapping": {
+    "path": "C:\\Users\\DELL\\Documents\\CMP486\\UAE-License-Plate-Detection-Preprocessed\\reports\\class_mapping.csv",
+    "exists": true,
+    "columns": [
+      "source_class_id",
+      "source_class_name",
+      "source_box_count",
+      "decision",
+      "target_class_id",
+      "target_class_name",
+      "boxes_kept",
+      "boxes_removed",
+      "reason"
+    ],
+    "row_count": 51,
+    "rows": [
+      {
+        "source_class_id": "0",
+        "source_class_name": "0",
+        "source_box_count": "4699",
+        "decision": "REMOVE_NON_TARGET",
+        "target_class_id": "",
+        "target_class_name": "",
+        "boxes_kept": "0",
+        "boxes_removed": "4699",
+        "reason": "OCR character, expiration, emirate and style annotations are outside the one-class full-plate target."
+      },
+      {
+        "source_class_id": "1",
+        "source_class_name": "1",
+        "source_box_count": "5888",
+        "decision": "REMOVE_NON_TARGET",
+        "target_class_id": "",
+        "target_class_name": "",
+        "boxes_kept": "0",
+        "boxes_removed": "5888",
+        "reason": "OCR character, expiration, emirate and style annotations are outside the one-class full-plate target."
+      },
+      {
+        "source_class_id": "2",
+        "source_class_name": "2",
+        "source_box_count": "5671",
+        "decision": "REMOVE_NON_TARGET",
+        "target_class_id": "",
+        "target_class_name": "",
+        "boxes_kept": "0",
+        "boxes_removed": "5671",
+        "reason": "OCR character, expiration, emirate and style annotations are outside the one-class full-plate target."
+      },
+      {
+        "source_class_id": "3",
+        "source_class_name": "3",
+        "source_box_count": "5375",
+        "decision": "REMOVE_NON_TARGET",
+        "target_class_id": "",
+        "target_class_name": "",
+        "boxes_kept": "0",
+        "boxes_removed": "5375",
+        "reason": "OCR character, expiration, emirate and style annotations are outside the one-class full-plate target."
+      },
+      {
+        "source_class_id": "4",
+        "source_class_name": "4",
+        "source_box_count": "5281",
+        "decision": "REMOVE_NON_TARGET",
+        "target_class_id": "",
+        "target_class_name": "",
+        "boxes_kept": "0",
+        "boxes_removed": "5281",
+        "reason": "OCR character, expiration, emirate and style annotations are outside the one-class full-plate target."
+      },
+      {
+        "source_class_id": "5",
+        "source_class_name": "5",
+        "source_box_count": "5436",
+        "decision": "REMOVE_NON_TARGET",
+        "target_class_id": "",
+        "target_class_name": "",
+        "boxes_kept": "0",
+        "boxes_removed": "5436",
+        "reason": "OCR character, expiration, emirate and style annotations are outside the one-class full-plate target."
+      },
+      {
+        "source_class_id": "6",
+        "source_class_name": "6",
+        "source_box_count": "5228",
+        "decision": "REMOVE_NON_TARGET",
+        "target_class_id": "",
+        "target_class_name": "",
+        "boxes_kept": "0",
+        "boxes_removed": "5228",
+        "reason": "OCR character, expiration, emirate and style annotations are outside the one-class full-plate target."
+      },
+      {
+        "source_class_id": "7",
+        "source_class_name": "7",
+        "source_box_count": "5449",
+        "decision": "REMOVE_NON_TARGET",
+        "target_class_id": "",
+        "target_class_name": "",
+        "boxes_kept": "0",
+        "boxes_removed": "5449",
+        "reason": "OCR character, expiration, emirate and style annotations are outside the one-class full-plate target."
+      },
+      {
+        "source_class_id": "8",
+        "source_class_name": "8",
+        "source_box_count": "5365",
+        "decision": "REMOVE_NON_TARGET",
+        "target_class_id": "",
+        "target_class_name": "",
+        "boxes_kept": "0",
+        "boxes_removed": "5365",
+        "reason": "OCR character, expiration, emirate and style annotations are outside the one-class full-plate target."
+      },
+      {
+        "source_class_id": "9",
+        "source_class_name": "9",
+        "source_box_count": "5543",
+        "decision": "REMOVE_NON_TARGET",
+        "target_class_id": "",
+        "target_class_name": "",
+        "boxes_kept": "0",
+        "boxes_removed": "5543",
+        "reason": "OCR character, expiration, emirate and style annotations are outside the one-class full-plate target."
+      },
+      {
+        "source_class_id": "10",
+        "source_class_name": "A",
+        "source_box_count": "374",
+        "decision": "REMOVE_NON_TARGET",
+        "target_class_id": "",
+        "target_class_name": "",
+        "boxes_kept": "0",
+        "boxes_removed": "374",
+        "reason": "OCR character, expiration, emirate and style annotations are outside the one-class full-plate target."
+      },
+      {
+        "source_class_id": "11",
+        "source_class_name": "B",
+        "source_box_count": "373",
+        "decision": "REMOVE_NON_TARGET",
+        "target_class_id": "",
+        "target_class_name": "",
+        "boxes_kept": "0",
+        "boxes_removed": "373",
+        "reason": "OCR character, expiration, emirate and style annotations are outside the one-class full-plate target."
+      },
+      {
+        "source_class_id": "12",
+        "source_class_name": "C",
+        "source_box_count": "335",
+        "decision": "REMOVE_NON_TARGET",
+        "target_class_id": "",
+        "target_class_name": "",
+        "boxes_kept": "0",
+        "boxes_removed": "335",
+        "reason": "OCR character, expiration, emirate and style annotations are outside the one-class full-plate target."
+      },
+      {
+        "source_class_id": "13",
+        "source_class_name": "D",
+        "source_box_count": "364",
+        "decision": "REMOVE_NON_TARGET",
+        "target_class_id": "",
+        "target_class_name": "",
+        "boxes_kept": "0",
+        "boxes_removed": "364",
+        "reason": "OCR character, expiration, emirate and style annotations are outside the one-class full-plate target."
+      },
+      {
+        "source_class_id": "14",
+        "source_class_name": "E",
+        "source_box_count": "361",
+        "decision": "REMOVE_NON_TARGET",
+        "target_class_id": "",
+        "target_class_name": "",
+        "boxes_kept": "0",
+        "boxes_removed": "361",
+        "reason": "OCR character, expiration, emirate and style annotations are outside the one-class full-plate target."
+      },
+      {
+        "source_class_id": "15",
+        "source_class_name": "F",
+        "source_box_count": "369",
+        "decision": "REMOVE_NON_TARGET",
+        "target_class_id": "",
+        "target_class_name": "",
+        "boxes_kept": "0",
+        "boxes_removed": "369",
+        "reason": "OCR character, expiration, emirate and style annotations are outside the one-class full-plate target."
+      },
+      {
+        "source_class_id": "16",
+        "source_class_name": "G",
+        "source_box_count": "366",
+        "decision": "REMOVE_NON_TARGET",
+        "target_class_id": "",
+        "target_class_name": "",
+        "boxes_kept": "0",
+        "boxes_removed": "366",
+        "reason": "OCR character, expiration, emirate and style annotations are outside the one-class full-plate target."
+      },
+      {
+        "source_class_id": "17",
+        "source_class_name": "H",
+        "source_box_count": "291",
+        "decision": "REMOVE_NON_TARGET",
+        "target_class_id": "",
+        "target_class_name": "",
+        "boxes_kept": "0",
+        "boxes_removed": "291",
+        "reason": "OCR character, expiration, emirate and style annotations are outside the one-class full-plate target."
+      },
+      {
+        "source_class_id": "18",
+        "source_class_name": "I",
+        "source_box_count": "321",
+        "decision": "REMOVE_NON_TARGET",
+        "target_class_id": "",
+        "target_class_name": "",
+        "boxes_kept": "0",
+        "boxes_removed": "321",
+        "reason": "OCR character, expiration, emirate and style annotations are outside the one-class full-plate target."
+      },
+      {
+        "source_class_id": "19",
+        "source_class_name": "J",
+        "source_box_count": "382",
+        "decision": "REMOVE_NON_TARGET",
+        "target_class_id": "",
+        "target_class_name": "",
+        "boxes_kept": "0",
+        "boxes_removed": "382",
+        "reason": "OCR character, expiration, emirate and style annotations are outside the one-class full-plate target."
+      },
+      {
+        "source_class_id": "20",
+        "source_class_name": "K",
+        "source_box_count": "400",
+        "decision": "REMOVE_NON_TARGET",
+        "target_class_id": "",
+        "target_class_name": "",
+        "boxes_kept": "0",
+        "boxes_removed": "400",
+        "reason": "OCR character, expiration, emirate and style annotations are outside the one-class full-plate target."
+      },
+      {
+        "source_class_id": "21",
+        "source_class_name": "L",
+        "source_box_count": "496",
+        "decision": "REMOVE_NON_TARGET",
+        "target_class_id": "",
+        "target_class_name": "",
+        "boxes_kept": "0",
+        "boxes_removed": "496",
+        "reason": "OCR character, expiration, emirate and style annotations are outside the one-class full-plate target."
+      },
+      {
+        "source_class_id": "22",
+        "source_class_name": "M",
+        "source_box_count": "472",
+        "decision": "REMOVE_NON_TARGET",
+        "target_class_id": "",
+        "target_class_name": "",
+        "boxes_kept": "0",
+        "boxes_removed": "472",
+        "reason": "OCR character, expiration, emirate and style annotations are outside the one-class full-plate target."
+      },
+      {
+        "source_class_id": "23",
+        "source_class_name": "N",
+        "source_box_count": "374",
+        "decision": "REMOVE_NON_TARGET",
+        "target_class_id": "",
+        "target_class_name": "",
+        "boxes_kept": "0",
+        "boxes_removed": "374",
+        "reason": "OCR character, expiration, emirate and style annotations are outside the one-class full-plate target."
+      },
+      {
+        "source_class_id": "24",
+        "source_class_name": "O",
+        "source_box_count": "414",
+        "decision": "REMOVE_NON_TARGET",
+        "target_class_id": "",
+        "target_class_name": "",
+        "boxes_kept": "0",
+        "boxes_removed": "414",
+        "reason": "OCR character, expiration, emirate and style annotations are outside the one-class full-plate target."
+      },
+      {
+        "source_class_id": "25",
+        "source_class_name": "P",
+        "source_box_count": "439",
+        "decision": "REMOVE_NON_TARGET",
+        "target_class_id": "",
+        "target_class_name": "",
+        "boxes_kept": "0",
+        "boxes_removed": "439",
+        "reason": "OCR character, expiration, emirate and style annotations are outside the one-class full-plate target."
+      },
+      {
+        "source_class_id": "26",
+        "source_class_name": "Q",
+        "source_box_count": "393",
+        "decision": "REMOVE_NON_TARGET",
+        "target_class_id": "",
+        "target_class_name": "",
+        "boxes_kept": "0",
+        "boxes_removed": "393",
+        "reason": "OCR character, expiration, emirate and style annotations are outside the one-class full-plate target."
+      },
+      {
+        "source_class_id": "27",
+        "source_class_name": "R",
+        "source_box_count": "446",
+        "decision": "REMOVE_NON_TARGET",
+        "target_class_id": "",
+        "target_class_name": "",
+        "boxes_kept": "0",
+        "boxes_removed": "446",
+        "reason": "OCR character, expiration, emirate and style annotations are outside the one-class full-plate target."
+      },
+      {
+        "source_class_id": "28",
+        "source_class_name": "S",
+        "source_box_count": "473",
+        "decision": "REMOVE_NON_TARGET",
+        "target_class_id": "",
+        "target_class_name": "",
+        "boxes_kept": "0",
+        "boxes_removed": "473",
+        "reason": "OCR character, expiration, emirate and style annotations are outside the one-class full-plate target."
+      },
+      {
+        "source_class_id": "29",
+        "source_class_name": "T",
+        "source_box_count": "440",
+        "decision": "REMOVE_NON_TARGET",
+        "target_class_id": "",
+        "target_class_name": "",
+        "boxes_kept": "0",
+        "boxes_removed": "440",
+        "reason": "OCR character, expiration, emirate and style annotations are outside the one-class full-plate target."
+      },
+      {
+        "source_class_id": "30",
+        "source_class_name": "U",
+        "source_box_count": "390",
+        "decision": "REMOVE_NON_TARGET",
+        "target_class_id": "",
+        "target_class_name": "",
+        "boxes_kept": "0",
+        "boxes_removed": "390",
+        "reason": "OCR character, expiration, emirate and style annotations are outside the one-class full-plate target."
+      },
+      {
+        "source_class_id": "31",
+        "source_class_name": "V",
+        "source_box_count": "287",
+        "decision": "REMOVE_NON_TARGET",
+        "target_class_id": "",
+        "target_class_name": "",
+        "boxes_kept": "0",
+        "boxes_removed": "287",
+        "reason": "OCR character, expiration, emirate and style annotations are outside the one-class full-plate target."
+      },
+      {
+        "source_class_id": "32",
+        "source_class_name": "W",
+        "source_box_count": "300",
+        "decision": "REMOVE_NON_TARGET",
+        "target_class_id": "",
+        "target_class_name": "",
+        "boxes_kept": "0",
+        "boxes_removed": "300",
+        "reason": "OCR character, expiration, emirate and style annotations are outside the one-class full-plate target."
+      },
+      {
+        "source_class_id": "33",
+        "source_class_name": "X",
+        "source_box_count": "67",
+        "decision": "REMOVE_NON_TARGET",
+        "target_class_id": "",
+        "target_class_name": "",
+        "boxes_kept": "0",
+        "boxes_removed": "67",
+        "reason": "OCR character, expiration, emirate and style annotations are outside the one-class full-plate target."
+      },
+      {
+        "source_class_id": "34",
+        "source_class_name": "Y",
+        "source_box_count": "15",
+        "decision": "REMOVE_NON_TARGET",
+        "target_class_id": "",
+        "target_class_name": "",
+        "boxes_kept": "0",
+        "boxes_removed": "15",
+        "reason": "OCR character, expiration, emirate and style annotations are outside the one-class full-plate target."
+      },
+      {
+        "source_class_id": "35",
+        "source_class_name": "Z",
+        "source_box_count": "7",
+        "decision": "REMOVE_NON_TARGET",
+        "target_class_id": "",
+        "target_class_name": "",
+        "boxes_kept": "0",
+        "boxes_removed": "7",
+        "reason": "OCR character, expiration, emirate and style annotations are outside the one-class full-plate target."
+      },
+      {
+        "source_class_id": "36",
+        "source_class_name": "exp",
+        "source_box_count": "3",
+        "decision": "REMOVE_NON_TARGET",
+        "target_class_id": "",
+        "target_class_name": "",
+        "boxes_kept": "0",
+        "boxes_removed": "3",
+        "reason": "OCR character, expiration, emirate and style annotations are outside the one-class full-plate target."
+      },
+      {
+        "source_class_id": "37",
+        "source_class_name": "new_DUBAI",
+        "source_box_count": "2878",
+        "decision": "REMOVE_NON_TARGET",
+        "target_class_id": "",
+        "target_class_name": "",
+        "boxes_kept": "0",
+        "boxes_removed": "2878",
+        "reason": "OCR character, expiration, emirate and style annotations are outside the one-class full-plate target."
+      },
+      {
+        "source_class_id": "38",
+        "source_class_name": "new_RAK",
+        "source_box_count": "74",
+        "decision": "REMOVE_NON_TARGET",
+        "target_class_id": "",
+        "target_class_name": "",
+        "boxes_kept": "0",
+        "boxes_removed": "74",
+        "reason": "OCR character, expiration, emirate and style annotations are outside the one-class full-plate target."
+      },
+      {
+        "source_class_id": "39",
+        "source_class_name": "new_abudabi",
+        "source_box_count": "272",
+        "decision": "REMOVE_NON_TARGET",
+        "target_class_id": "",
+        "target_class_name": "",
+        "boxes_kept": "0",
+        "boxes_removed": "272",
+        "reason": "OCR character, expiration, emirate and style annotations are outside the one-class full-plate target."
+      },
+      {
+        "source_class_id": "40",
+        "source_class_name": "new_ajman",
+        "source_box_count": "50",
+        "decision": "REMOVE_NON_TARGET",
+        "target_class_id": "",
+        "target_class_name": "",
+        "boxes_kept": "0",
+        "boxes_removed": "50",
+        "reason": "OCR character, expiration, emirate and style annotations are outside the one-class full-plate target."
+      },
+      {
+        "source_class_id": "41",
+        "source_class_name": "new_am",
+        "source_box_count": "29",
+        "decision": "REMOVE_NON_TARGET",
+        "target_class_id": "",
+        "target_class_name": "",
+        "boxes_kept": "0",
+        "boxes_removed": "29",
+        "reason": "OCR character, expiration, emirate and style annotations are outside the one-class full-plate target."
+      },
+      {
+        "source_class_id": "42",
+        "source_class_name": "new_fujairah",
+        "source_box_count": "17",
+        "decision": "REMOVE_NON_TARGET",
+        "target_class_id": "",
+        "target_class_name": "",
+        "boxes_kept": "0",
+        "boxes_removed": "17",
+        "reason": "OCR character, expiration, emirate and style annotations are outside the one-class full-plate target."
+      },
+      {
+        "source_class_id": "43",
+        "source_class_name": "old_DUBAI",
+        "source_box_count": "5066",
+        "decision": "REMOVE_NON_TARGET",
+        "target_class_id": "",
+        "target_class_name": "",
+        "boxes_kept": "0",
+        "boxes_removed": "5066",
+        "reason": "OCR character, expiration, emirate and style annotations are outside the one-class full-plate target."
+      },
+      {
+        "source_class_id": "44",
+        "source_class_name": "old_RAK",
+        "source_box_count": "183",
+        "decision": "REMOVE_NON_TARGET",
+        "target_class_id": "",
+        "target_class_name": "",
+        "boxes_kept": "0",
+        "boxes_removed": "183",
+        "reason": "OCR character, expiration, emirate and style annotations are outside the one-class full-plate target."
+      },
+      {
+        "source_class_id": "45",
+        "source_class_name": "old_abudabi",
+        "source_box_count": "932",
+        "decision": "REMOVE_NON_TARGET",
+        "target_class_id": "",
+        "target_class_name": "",
+        "boxes_kept": "0",
+        "boxes_removed": "932",
+        "reason": "OCR character, expiration, emirate and style annotations are outside the one-class full-plate target."
+      },
+      {
+        "source_class_id": "46",
+        "source_class_name": "old_ajman",
+        "source_box_count": "156",
+        "decision": "REMOVE_NON_TARGET",
+        "target_class_id": "",
+        "target_class_name": "",
+        "boxes_kept": "0",
+        "boxes_removed": "156",
+        "reason": "OCR character, expiration, emirate and style annotations are outside the one-class full-plate target."
+      },
+      {
+        "source_class_id": "47",
+        "source_class_name": "old_am",
+        "source_box_count": "101",
+        "decision": "REMOVE_NON_TARGET",
+        "target_class_id": "",
+        "target_class_name": "",
+        "boxes_kept": "0",
+        "boxes_removed": "101",
+        "reason": "OCR character, expiration, emirate and style annotations are outside the one-class full-plate target."
+      },
+      {
+        "source_class_id": "48",
+        "source_class_name": "old_fujira",
+        "source_box_count": "468",
+        "decision": "REMOVE_NON_TARGET",
+        "target_class_id": "",
+        "target_class_name": "",
+        "boxes_kept": "0",
+        "boxes_removed": "468",
+        "reason": "OCR character, expiration, emirate and style annotations are outside the one-class full-plate target."
+      },
+      {
+        "source_class_id": "49",
+        "source_class_name": "old_sharka",
+        "source_box_count": "713",
+        "decision": "REMOVE_NON_TARGET",
+        "target_class_id": "",
+        "target_class_name": "",
+        "boxes_kept": "0",
+        "boxes_removed": "713",
+        "reason": "OCR character, expiration, emirate and style annotations are outside the one-class full-plate target."
+      },
+      {
+        "source_class_id": "50",
+        "source_class_name": "plate",
+        "source_box_count": "12468",
+        "decision": "KEEP_AND_MAP",
+        "target_class_id": "0",
+        "target_class_name": "license_plate",
+        "boxes_kept": "12451",
+        "boxes_removed": "17",
+        "reason": "The exact source class plate is remapped to class 0; release membership is frozen by the active manifest."
+      }
+    ],
+    "emirates_found": [
+      "Dubai",
+      "Ajman",
+      "Fujairah"
+    ]
+  },
+  "dataset_yamls": [
+    {
+      "path": "C:\\Users\\DELL\\Documents\\CMP486\\UAE-License-Plate-Detection-Preprocessed\\data.yaml",
+      "names": {
+        "0": "license_plate"
+      },
+      "emirates_found": []
+    },
+    {
+      "path": "C:\\Users\\DELL\\Documents\\CMP486\\UAE-License-Plate-Detection-Preprocessed\\datasets\\uae_lp_v2_yolo\\data.yaml",
+      "names": {
+        "0": "license_plate"
+      },
+      "emirates_found": []
+    }
+  ],
+  "coco_annotations": [
+    {
+      "path": "C:\\Users\\DELL\\Documents\\CMP486\\UAE-License-Plate-Detection-Preprocessed\\datasets\\uae_lp_v2_rfdetr_coco\\test\\_annotations.coco.json",
+      "category_count": 1,
+      "category_names": [
+        "license_plate"
+      ],
+      "emirates_found": []
+    },
+    {
+      "path": "C:\\Users\\DELL\\Documents\\CMP486\\UAE-License-Plate-Detection-Preprocessed\\datasets\\uae_lp_v2_rfdetr_coco\\train\\_annotations.coco.json",
+      "category_count": 1,
+      "category_names": [
+        "license_plate"
+      ],
+      "emirates_found": []
+    },
+    {
+      "path": "C:\\Users\\DELL\\Documents\\CMP486\\UAE-License-Plate-Detection-Preprocessed\\datasets\\uae_lp_v2_rfdetr_coco\\valid\\_annotations.coco.json",
+      "category_count": 1,
+      "category_names": [
+        "license_plate"
+      ],
+      "emirates_found": []
+    }
+  ],
+  "structured_label_evidence": [
+    {
+      "source": "reports/class_mapping.csv",
+      "emirates": [
+        "Dubai",
+        "Ajman",
+        "Fujairah"
+      ]
+    }
+  ],
+  "text_match_count": 5,
+  "filename_match_count": 0,
+  "filename_counts_by_emirate": {
+    "Abu Dhabi": 0,
+    "Dubai": 0,
+    "Sharjah": 0,
+    "Ajman": 0,
+    "Fujairah": 0,
+    "Ras Al Khaimah": 0,
+    "Umm Al Quwain": 0
+  },
+  "interpretation": "Potential structured emirate labels were found. Inspect the listed source files before building a classifier."
+}

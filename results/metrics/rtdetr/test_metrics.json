@@ -1,0 +1,20 @@
+{
+  "checkpoint": "C:\\Users\\DELL\\Documents\\CMP486\\UAE-License-Plate-Detection-Preprocessed\\runs\\rtdetr_l_main\\weights\\best.pt",
+  "dataset_yaml": "C:\\Users\\DELL\\Documents\\CMP486\\UAE-License-Plate-Detection-Preprocessed\\datasets\\uae_lp_v2_rtdetr.yaml",
+  "split": "test",
+  "num_test_images_expected": 1432,
+  "imgsz": 576,
+  "batch": 4,
+  "map_50_95": 0.8638690195348631,
+  "map_50": 0.9943540622468818,
+  "map_75": 0.9805656347603308,
+  "mean_precision": 0.9774323661231256,
+  "mean_recall": 0.9920582395764395,
+  "speed_ms_per_image": {
+    "preprocess": 0.7176515373125589,
+    "inference": 13.611202303342282,
+    "loss": 0.00127430105459611,
+    "postprocess": 0.3695819846727735
+  },
+  "note": "Ultralytics validation precision and recall use its validation operating point. For a threshold-controlled comparison, select confidence on validation and freeze it before computing test precision, recall, and F1."
+}
