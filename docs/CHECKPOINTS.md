@@ -23,7 +23,7 @@ Used by the final application pipeline.
 Download link:
 
 ```text
-ADD_LINK_HERE
+https://drive.google.com/drive/u/2/folders/11NIEo7Cx430th-ADQH7vAt1NhTNl5QRZ
 ```
 
 ---
